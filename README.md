@@ -23,21 +23,22 @@ I also wonder what the accuracy would be in this case, even if this approach doe
 
 Reference: [http://yann.lecun.com/exdb/mnist/](http://yann.lecun.com/exdb/mnist/)
 
-% time python3 mnist.py
-    -- read_training_data()
-    ............
-    -- draw_average_images()
-    -- read_test_images()
-        index: 1000, accuracy: 0.774226
-        index: 2000, accuracy: 0.758621
-        index: 3000, accuracy: 0.767411
-        index: 4000, accuracy: 0.764559
-        index: 5000, accuracy: 0.762048
-        index: 6000, accuracy: 0.778370
-        index: 7000, accuracy: 0.788887
-        index: 8000, accuracy: 0.795526
-        index: 9000, accuracy: 0.807688
-    -- final accuracy: 0.808700
-    python3 mnist.py  14.54s user 0.21s system 105% cpu 13.965 total
+```
+% python3 mnist.py
+-- read_training_data()
+............
+-- draw_average_images()
+-- read_test_images()
+    index: 1000, accuracy: 0.774226
+    index: 2000, accuracy: 0.758621
+    index: 3000, accuracy: 0.767411
+    index: 4000, accuracy: 0.764559
+    index: 5000, accuracy: 0.762048
+    index: 6000, accuracy: 0.778370
+    index: 7000, accuracy: 0.788887
+    index: 8000, accuracy: 0.795526
+    index: 9000, accuracy: 0.807688
+-- final accuracy: 0.808700
+```
 
 ![MNIST average digits](average_digits.png "MNIST average digits")
